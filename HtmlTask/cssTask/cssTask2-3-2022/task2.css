@@ -24,6 +24,9 @@ div > a{
 h2 , li{
     text-transform: capitalize;
 }
+li{
+    font-weight: 900;
+}
 span{
     text-transform: uppercase;
 }
