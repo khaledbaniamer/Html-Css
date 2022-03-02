@@ -12,10 +12,12 @@ h1{
 }
 .red-color{
     color: red;
+    padding: 5%;
     
 }
 div > a{
     color: blue;
+    text-transform: capitalize;
 }
 h2 , li{
     text-transform: capitalize;
