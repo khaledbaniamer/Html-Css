@@ -1,0 +1,25 @@
+h1{
+    background-color: red;
+}
+
+.background{
+    background-image: url('pekom.jpeg');
+    background-size: 500px;
+    height: 500px;
+    width: 500px;
+
+
+}
+.red-color{
+    color: red;
+    
+}
+div > a{
+    color: blue;
+}
+h2 , li{
+    text-transform: capitalize;
+}
+span{
+    text-transform: uppercase;
+}
