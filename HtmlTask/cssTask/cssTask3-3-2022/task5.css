@@ -1,0 +1,25 @@
+
+.one{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.two{
+    border: 50px yellow double;
+    margin: 15px;
+    position: relative;
+    top: 5%;
+    height: 70%;
+}
+
+p{
+    text-align: center;
+    position: relative;
+    line-height: 300px;
+    color: white;
+}
+
+
+

@@ -1,0 +1,9 @@
+.pic{
+    background-image: url('image.jpg');
+    background-size: 200px 150px;
+    height: 150px;
+    width: 200px;
+    border: .5px solid;
+    position: fixed;
+    right: 25px;
+}

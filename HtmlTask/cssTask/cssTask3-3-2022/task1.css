@@ -1,0 +1,15 @@
+.blue{
+    color:blue;
+    position: relative;
+    left: 30px;
+    font-weight: 600;
+}
+
+.green{
+
+    color: green;
+}
+
+div div span{
+    color: black;
+}

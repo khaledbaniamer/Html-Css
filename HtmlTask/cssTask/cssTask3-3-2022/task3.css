@@ -1,0 +1,23 @@
+.float{
+    
+    margin: 10px;
+    display: inline-block;
+    width: 320px;
+
+    background-color: whitesmoke;
+}
+
+body{
+    
+    background-color: rgb(241, 156, 223);
+}
+
+.scroll-div{
+    border: 5px solid;
+    border-left: none;
+    font-weight: 550;
+    width: 100%;
+    height: 50px;
+    overflow: auto;
+    
+}

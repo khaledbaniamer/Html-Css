@@ -1,0 +1,19 @@
+div{
+    
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.yellow{
+    background-color: yellow;
+    top: 50px;
+}
+.green{
+    background-color: green;
+    top: 100px;
+}

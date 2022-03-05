@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+div{
+    width: 600px;
+    background-color: white;
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 10px;
+}
+ .para-two p{
+    border: 2px dotted red;
+}
+.para-two{
+    border: 2px dotted ;
+}
+.para-three p ,.para-three h2{
+    color: blueviolet;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
