@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        @keyframes light1{
+            33%{background-color:red }
+            100%{background-color: grey;}
+          
+        }
+        @keyframes light2{
+            33%{background-color: grey;}
+            66%{background-color:orange }
+            
+          
+        }
+        @keyframes light3{
+            66%{background-color: grey;}
+            100%{background-color:green }
+          
+        }
+        .black{
+            background-color: black;
+            width: 50px;
+            height: 120px;
+
+            
+        }
+        .black div{
+            margin: auto;
+            background-color: grey;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+
+            
+        }
+        .red{
+            animation-name: light1;
+            animation-duration: 3s;
+            
+            animation-iteration-count: infinite;
+        }
+        .orange{
+            animation-name: light2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        .green{
+            animation-name: light3;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="black">
+        <div class="red">
+
+        </div>
+        <div class="orange">
+
+        </div>
+        <div class="green">
+
+        </div>
+    </div>
+</body>
+</html>
