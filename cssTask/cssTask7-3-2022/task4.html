@@ -13,9 +13,8 @@
             display: grid;
             row-gap: 5px;
             column-gap: 5px;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: 25% 50% 24% ;
-            border: 2px red solid;
+            grid-template-rows: 100px 200px 130px ;
+            
 
         }
         .classdiv:nth-child(1){
@@ -25,6 +24,7 @@
         }
         .classdiv:nth-child(2){
             background-color: orange;
+            grid-area: 2/1/3/3;
             grid-row-start: 2;
             grid-column-start:1 ;
             grid-column-end:3 ;
