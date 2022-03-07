@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+
+    <style>
+        .main{
+            display: grid;
+            width: 850px;
+            height: 560px;
+            grid-template-columns:33% 33% 33%;
+            grid-template-rows:33% 33% 33%;
+            row-gap: 10px;
+            column-gap: 10px;
+
+        }
+
+        .classdiv{
+            
+            background-image: url(stufent.jpg);
+            background-repeat: no-repeat;
+            background-size: 280px 180px;
+        }
+
+        @media screen and (min-width: 480px) and (max-width: 768px){
+            .main{
+ 
+            grid-template-columns:50% 50%;
+            grid-template-rows:auto;
+            row-gap: 25px;
+            column-gap: 25px;
+            }
+
+        }
+    
+        @media screen and (min-width: 319px)and (max-width: 424px){
+
+            .main{
+     
+            width: 280px;
+            height: 180px;
+            grid-template-columns:280px;
+            grid-template-rows:repeat(8, 180px);
+
+
+        }
+
+        .classdiv{
+            
+            background-image: url(stufent.jpg);
+            background-repeat: no-repeat;
+            background-size: 280px 180px;
+        }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="classdiv">
+           
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+
+    </div>
+</body>
+</html>

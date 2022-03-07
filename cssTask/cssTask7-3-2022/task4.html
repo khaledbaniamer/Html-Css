@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+
+    <style>
+        .main{
+            width: 1000px;
+            height: 1000px;
+            display: grid;
+            row-gap: 5px;
+            column-gap: 5px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 25% 50% 24% ;
+            border: 2px red solid;
+
+        }
+        .classdiv:nth-child(1){
+            background-color: black;
+            
+            grid-area: 1/1/2/4;
+        }
+        .classdiv:nth-child(2){
+            background-color: orange;
+            grid-row-start: 2;
+            grid-column-start:1 ;
+            grid-column-end:3 ;
+        }
+        .classdiv:nth-child(3){
+            background-color: green;
+            grid-row: 2;
+            grid-column-start: 3 ;
+            
+            
+        }
+        .classdiv:nth-child(4){
+            background-color: blue;
+            grid-area: 3/1/4/4;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="classdiv">
+           
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+        
+        <div class="classdiv">
+            
+        </div>
+
+        <div class="classdiv">
+            
+        </div>
+
+            
+        </div>
+    </div>
+</body>
+</html>
