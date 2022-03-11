@@ -1,0 +1,413 @@
+
+body{
+    background-color: #202020;
+}
+.main{
+    display: flex;
+    flex-direction: column;   
+}
+
+.container{
+    border: 3px solid white;
+    border-radius: 5px;
+}
+#link1 ,#link2 ,#link3 ,#link4 ,#link5 {
+    transition: .5s;
+}
+#link1:hover ,#link2:hover , #link3:hover , #link4:hover ,#link5:hover{
+    font-size: 25px;
+    background-color: #A6A165;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 1px #A6A165;
+}
+
+h2{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    transition: 1s;
+}
+h2:hover{
+    font-size: 70px;
+    box-shadow: 12px 12px 2px 1px grey;
+}
+p{
+    font-size: 25px;
+    transition: 1s;
+}
+p:hover{
+    font-size: 30px;
+    box-shadow: 12px 12px 2px 1px grey;
+}
+h2,p{
+    background-color:#E7FDEC ;
+    border-radius: 2px;
+    
+    
+}
+#title{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    transition: 1s;
+}
+#title:hover ,#card1:hover , #card1:hover ,#card2:hover ,#card3:hover ,#card4:hover{
+    box-shadow: 12px 12px 2px 1px grey;
+}
+#title .text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 2px;
+    height: 300px;
+    
+    border-radius: 5px;
+    
+  
+    
+}
+#title img{
+    width: 550px;
+    height: 550px;
+    border-radius: 5px;
+    
+}
+
+#card1{
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 700px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    
+    transition: 1s;
+}
+
+#card1 img{
+    width: 500px;
+    height: 500px;
+    
+    border-radius: 5px;
+   
+    margin-bottom: 15px;
+}
+#card1 .text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 300px;
+    
+   
+    border-radius: 5px;
+   
+}
+
+#card2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 700px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: auto;
+    
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+#card2 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 15px;
+    padding: 50px;
+    border-radius: 5px;
+    width:700px;
+    height: 500px;
+    
+    margin: auto;
+   
+}
+
+#card2 .text p {
+    width: 550px;
+    justify-content: center;
+}
+
+#card3{
+
+    display: flex;
+    
+    width: 90%;
+    height: 700px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+    transition: 1s;
+
+}
+
+.one ,.two{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:640px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+   
+    
+}
+
+#card4{
+    display: flex;
+    width: 90%;
+    height: 700px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+.listOne , .listTwo{
+    width: 45%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:540px;
+    padding: 10px;
+    margin: 15px;
+
+    
+    border-radius: 5px;
+
+    
+}
+
+#mainFooter{
+    height: 170px;
+    background-color: #000000;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.websit{
+    display: flex;
+    
+    width: 250px;
+    justify-content: space-around;
+    
+}
+
+.linkedn , .github , .facebook{
+    transition: 1s;
+}
+
+.linkedn:hover , .github:hover , .facebook:hover{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#logo{
+    transition: 1s;
+}
+#logo:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.email , .contact{
+    transition: 1s;
+}
+
+.email:hover , .contact:hover{
+    font-size: 20px;
+}
+
+/* Style fot tablet screen  */
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+    #title img{
+        width: 250px;
+        height: 250px; 
+    }
+
+    #card1 img{
+        width: 250px;
+        height: 250px;
+        
+    }
+
+
+    #title , #card1 , #card2 , #card3 , #card4{
+        width: 50%;
+        height: 450px;
+        margin-bottom: 30px;
+    }
+    #card2 .text{
+
+        width:50%;
+        height: 450px;
+    }
+    #card2 .text p {
+        width: 325px;
+        justify-content: center;
+    }
+
+.one , .two{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+
+.listOne , .listTwo{
+    height:300px;
+}
+
+#mainFooter{
+    display: block;
+    height: 300px;
+    width: 50%;
+    
+    padding: 20px;
+    
+}
+.websit{
+ 
+    margin: 25px;
+    width: 100px;
+    justify-content: space-around;
+    padding: 5px;
+    
+}
+    h2{
+        font-size:30px;
+    }
+
+    p{
+        font-size:15px;
+        
+    }
+}
+/* Style for mobile Screen */
+@media screen and (max-width: 479px){
+
+    .logo{
+        width: 25px;
+        height: 25px;
+    }
+    #link1 ,#link2 ,#link3 ,#link4 ,#link5 {
+        font-size: 17px;
+        
+    }
+
+
+    #title img{
+        width: 150px;
+        height: 150px;
+       
+        
+    }
+    #title .text{
+        height: 200px;
+    }
+
+    #card1 img{
+        width: 150px;
+        height: 150px;
+
+    }
+
+
+    #title , #card1 , #card2 , #card3 , #card4{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 5px;
+
+    }
+    #card2 .text{
+        width:150px;
+        height: 150px;
+    }
+    #card2 .text p {
+        width: 200px;
+        justify-content: center;
+    }
+
+.one , .two{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.listOne , .listTwo{
+    height:200px;
+}
+
+#mainFooter{
+    display: block;
+    height: 250px;
+    width: 250px;
+    
+    padding: 20px;
+    
+}
+.websit{
+    height: 50px;
+    margin: auto;
+    width: 50px;
+    padding: 10px;
+}
+.linkedn , .facebook ,.github {
+    width: 20px;
+    height: 20px;
+    margin: 15PX;
+}
+.phone1 , .phone2{
+    width: 20px;
+    height: 20px;
+    margin: 10PX;
+}
+    h2{
+        font-size:20px;
+    }
+
+    p{
+        font-size:10px;
+        
+    }
+}
