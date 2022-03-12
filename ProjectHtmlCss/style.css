@@ -13,7 +13,9 @@ body{
 }
 #link1 ,#link2 ,#link3 ,#link4 ,#link5 {
     transition: .5s;
+    
 }
+
 #link1:hover ,#link2:hover , #link3:hover , #link4:hover ,#link5:hover{
     font-size: 25px;
     background-color: #A6A165;
@@ -42,8 +44,7 @@ p:hover{
 h2,p{
     background-color:#E7FDEC ;
     border-radius: 2px;
-    
-    
+    padding: 5px;
 }
 #title{
     display: flex;
@@ -52,7 +53,6 @@ h2,p{
     height: 600px;
     border: 1px solid black;
     border-radius: 5px;
-    
     transition: 1s;
 }
 #title:hover ,#card1:hover , #card1:hover ,#card2:hover ,#card3:hover ,#card4:hover{
@@ -66,17 +66,12 @@ h2,p{
     margin: auto;
     padding: 2px;
     height: 300px;
-    
     border-radius: 5px;
-    
-  
-    
 }
 #title img{
     width: 550px;
     height: 550px;
     border-radius: 5px;
-    
 }
 
 #card1{
@@ -91,16 +86,13 @@ h2,p{
     border: 1px solid black;
     padding: 15px;
     border-radius: 5px;
-    
     transition: 1s;
 }
 
 #card1 img{
     width: 500px;
     height: 500px;
-    
     border-radius: 5px;
-   
     margin-bottom: 15px;
 }
 #card1 .text{
@@ -110,11 +102,10 @@ h2,p{
     flex-direction: column;
     margin: auto;
     height: 300px;
-    
-   
     border-radius: 5px;
    
 }
+
 
 #card2{
     display: flex;
@@ -124,7 +115,6 @@ h2,p{
     border: 1px solid black;
     padding: 15px;
     margin: auto;
-    
     margin-bottom: 50px;
     transition: 1s;
 }
@@ -134,13 +124,11 @@ h2,p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     margin: 15px;
     padding: 50px;
     border-radius: 5px;
     width:700px;
     height: 500px;
-    
     margin: auto;
    
 }
@@ -151,9 +139,7 @@ h2,p{
 }
 
 #card3{
-
     display: flex;
-    
     width: 90%;
     height: 700px;
     border: 1px solid black;
@@ -161,9 +147,7 @@ h2,p{
     margin: auto;
     border-radius: 5px;
     margin-bottom: 50px;
-
     transition: 1s;
-
 }
 
 .one ,.two{
@@ -176,8 +160,6 @@ h2,p{
     padding: 10px;
     margin: 15px;
     border-radius: 5px;
-   
-    
 }
 
 #card4{
@@ -193,7 +175,6 @@ h2,p{
 }
 .listOne , .listTwo{
     width: 45%;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,12 +182,30 @@ h2,p{
     height:540px;
     padding: 10px;
     margin: 15px;
-
-    
     border-radius: 5px;
-
-    
 }
+
+.listOne * , .listTwo * {
+    padding: 10px;
+}
+
+#card5{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 700px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+    transition: 1s;
+    align-items: center;
+}
+#card5 * {
+    margin: 30px;
+    padding: 5px;
+}
+
 
 #mainFooter{
     height: 170px;
@@ -224,10 +223,8 @@ h2,p{
 }
 .websit{
     display: flex;
-    
     width: 250px;
     justify-content: space-around;
-    
 }
 
 .linkedn , .github , .facebook{
@@ -268,18 +265,16 @@ h2,p{
 
     #card1 img{
         width: 250px;
-        height: 250px;
-        
+        height: 200px;
     }
 
 
-    #title , #card1 , #card2 , #card3 , #card4{
-        width: 50%;
+    #title , #card1 , #card2 , #card3 , #card4 , #card5{
+        width: 70%;
         height: 450px;
         margin-bottom: 30px;
     }
     #card2 .text{
-
         width:50%;
         height: 450px;
     }
@@ -292,28 +287,38 @@ h2,p{
     width: 50%;
     height: 300px;
     margin: auto;
+
+    display: block;
 }
 
 .listOne , .listTwo{
-    height:300px;
+    height:400px;
+    width: 50%;
+}
+
+
+#card5 * {
+    margin: 10px;
+    
 }
 
 #mainFooter{
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 300px;
-    width: 50%;
-    
+    width: 70%;
     padding: 20px;
-    
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
 }
 .websit{
- 
     margin: 25px;
-    width: 100px;
-    justify-content: space-around;
+    width: 60%;
     padding: 5px;
-    
+    margin: auto;
 }
+
     h2{
         font-size:30px;
     }
@@ -339,8 +344,6 @@ h2,p{
     #title img{
         width: 150px;
         height: 150px;
-       
-        
     }
     #title .text{
         height: 200px;
@@ -349,15 +352,13 @@ h2,p{
     #card1 img{
         width: 150px;
         height: 150px;
-
     }
 
 
-    #title , #card1 , #card2 , #card3 , #card4{
+    #title , #card1 , #card2 , #card3 , #card4 , #card5{
         width: 250px;
         height: 250px;
         margin-bottom: 5px;
-
     }
     #card2 .text{
         width:150px;
@@ -373,18 +374,28 @@ h2,p{
     height: 250px;
     margin: auto;
 }
+.listOne * , .listTwo * {
+    padding: 1px;
+}
 
 .listOne , .listTwo{
     height:200px;
+}
+
+#card5 *{
+    margin: 5px;
+}
+
+h2,p{
+
+    padding: 1px;
 }
 
 #mainFooter{
     display: block;
     height: 250px;
     width: 250px;
-    
     padding: 20px;
-    
 }
 .websit{
     height: 50px;
