@@ -40,20 +40,17 @@ p{
     transition: 1s;
 }
 p:hover{
-    font-size: 30px;
+    font-size: 27px;
     box-shadow: 2px 2px 2px 1px #A6A165;
 }
 h2,p{
-    /* background-color:#A6A165 ; */
+    
     color: white;
     border-radius: 2px;
     padding: 5px;
-
     text-shadow: 0 0 3px #A6A165, 0 0 5px #A6A165
-  
-
 }
-#title{
+#about{
     display: flex;
     margin: auto;
     width: 90%;
@@ -62,10 +59,10 @@ h2,p{
     border-radius: 5px;
     transition: 1s;
 }
-#title:hover ,#card1:hover , #card1:hover ,#card2:hover  ,#card5:hover{
-    box-shadow: 12px 12px 2px 1px #A6A165;
+#about:hover , #education:hover  ,#referance:hover{
+    box-shadow: 7px 7px 2px 1px #A6A165;
 }
-#title .text{
+#about .text{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,49 +72,13 @@ h2,p{
     height: 300px;
     border-radius: 5px;
 }
-#title img{
+#about img{
     width: 550px;
     height: 550px;
     border-radius: 5px;
 }
 
-#card1{
-    display: flex;
-    margin: auto;
-    margin-bottom: 50px;
-    align-items: center;
-    align-items: center;
-    flex-direction: column;
-    width: 90%;
-    height: 700px;
-    border: 1px solid #A6A165;
-    padding: 15px;
-    border-radius: 5px;
-    transition: 1s;
-}
-
-#card1 img{
-    width: 500px;
-    height: 500px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  
-}
-
-
-#card1 .text{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    height: 300px;
-    border-radius: 5px;
-   
-}
-
-
-#card2{
+#education{
     display: flex;
     
     width: 90%;
@@ -130,7 +91,7 @@ h2,p{
     border-radius: 5px;
 }
 
-#card2 .text{
+#education .text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,12 +115,12 @@ h2,p{
     width: 400px;
     height: 400px;
 }
-#card2 .text p {
+#education .text p {
     width: 550px;
     justify-content: center;
 }
 
-#card3{
+#experience{
     display: flex;
     width: 90%;
     height: 700px;
@@ -202,7 +163,7 @@ h2,p{
     height: 360px;
 }
 
-#card4{
+#skills{
     display: flex;
     width: 90%;
     height: 700px;
@@ -230,7 +191,7 @@ h2,p{
 .listOne:hover , .listTwo:hover{
     box-shadow: 10px 10px 2px 1px #A6A165;
 }
-.listOne img , .listTwo img , #card5 img{
+.listOne img , .listTwo img , #referance img{
     width:150px ;
     height:150px;
 }
@@ -239,7 +200,7 @@ h2,p{
     margin: 2px;
 }
 
-#card5{
+#referance{
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -252,7 +213,7 @@ h2,p{
     align-items: center;
     border-radius: 5px;
 }
-#card5 * {
+#referance * {
     margin: 20px;
     padding: 5px;
 }
@@ -311,27 +272,24 @@ h2,p{
 
 @media screen and (min-width: 480px) and (max-width: 768px){
 
-    #title img{
+    #about img{
         width: 250px;
         height: 250px; 
     }
 
-    #card1 img{
-        width: 250px;
-        height: 200px;
-    }
 
 
-    #title , #card1 , #card2 , #card3 , #card4 , #card5{
+
+    #about , #education , #experience , #skills , #referance{
         width: 80%;
         height: 450px;
         
     }
-    #card2 .text{
+    #education .text{
         width:50%;
         height: 350px;
     }
-    #card2 .text p {
+    #education .text p {
         width: 300px;
         justify-content: center;
     }
@@ -353,7 +311,7 @@ h2,p{
     text-align: center;
 }
 
-.listOne img , .listTwo img , #card5 img{
+.listOne img , .listTwo img , #referance img{
     width:75px ;
     height:75px;
 }
@@ -415,30 +373,27 @@ h2,p{
     }
 
 
-    #title img{
+    #about img{
         width: 150px;
         height: 150px;
     }
-    #title .text{
+    #about .text{
         height: 200px;
     }
 
-    #card1 img{
-        width: 150px;
-        height: 150px;
-    }
 
 
-    #title , #card1 , #card2 , #card5{
+
+    #about  , #education , #referance{
         width: 90%;
         height: 350px;
         margin-bottom: 5px;
     }
-    #card2 .text{
+    #education .text{
         width:150px;
         height: 150px;
     }
-    #card2 .text p {
+    #education .text p {
         width: 150px;
         justify-content: center;
     }
@@ -451,7 +406,7 @@ h2,p{
 .listOne * , .listTwo * {
     padding: 1px;
 }
-#card4 , #card3{
+#skills , #experience{
     display: block;
     height: 550px;
 }
@@ -462,12 +417,12 @@ h2,p{
     margin: 20px;
 }
 
-#card5 *{
+#referance *{
     margin: 5px;
 }
 
 
-.listOne img , .listTwo img , #card5 img{
+.listOne img , .listTwo img , #referance img{
     width:30px ;
     height:45px;
 }
