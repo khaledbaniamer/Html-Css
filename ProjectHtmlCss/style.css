@@ -12,6 +12,9 @@ body{
     border-radius: 5px;
     
 }
+#myNavbar{
+    flex-grow: 0;
+}
 #links li a {
     transition: 1s;
     
@@ -188,8 +191,8 @@ h2,p{
     box-shadow: 1px 1px 1px 1px #A6A165;
     transition: 1s;
 }
-.listOne:hover , .listTwo:hover{
-    box-shadow: 10px 10px 2px 1px #A6A165;
+.listOne:hover , .listTwo:hover , .referance1:hover , .referance2:hover{
+    box-shadow: 5px 5px 2px 1px #A6A165;
 }
 .listOne img , .listTwo img , #referance img{
     width:150px ;
@@ -205,7 +208,7 @@ h2,p{
     flex-direction: column;
     width: 90%;
     height: 700px;
-    border: 1px solid #A6A165;
+    
     padding: 15px;
     margin: auto;
     margin-bottom: 50px;
@@ -213,14 +216,34 @@ h2,p{
     align-items: center;
     border-radius: 5px;
 }
-#referance * {
-    margin: 20px;
-    padding: 5px;
+.referance1 ,.referance2{
+    border-radius: 5px;
+    border: 1px solid #A6A165;
+    height: 400px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    
+}
+.referance1 * ,.referance2 *{
+    margin-top: 10px;
+}
+
+.mainReferance{
+    display: flex;
+   
+}
+.title{
+    text-align: center;
 }
 
 
 #mainFooter{
-    height: 100px;
+    height: 150px;
     background-color: #A6A165;
     width: 90%;
     margin: auto;
@@ -229,10 +252,11 @@ h2,p{
     align-items: center;
     color: white;
     border-radius: 5px;
-    margin-bottom: 50px;
+    
     border: 3px solid white;
     border-radius: 5px;
     width: 98%;
+    position: relative;
     bottom: 0;
 }
 .websit{
@@ -268,6 +292,28 @@ h2,p{
     font-size: 20px;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    #educationIcon img{
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .listOne , .listTwo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:600px;
+        padding: 10px;
+        margin: 15px;
+
+        
+    }
+
+}
+
 /* Style fot tablet screen  */
 
 @media screen and (min-width: 480px) and (max-width: 768px){
@@ -278,7 +324,16 @@ h2,p{
     }
 
 
-
+    .referance1 ,.referance2{
+        border-radius: 5px;
+        border: 1px solid #A6A165;
+        height: 300px;
+        margin: 7px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
 
     #about , #education , #experience , #skills , #referance{
         width: 80%;
@@ -330,7 +385,7 @@ h2,p{
     height: 200px;
 }
 
-#card5 * {
+#referance * {
     margin: 10px;  
 }
 
@@ -381,7 +436,30 @@ h2,p{
         height: 200px;
     }
 
-
+    #referance{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+        
+        padding: 15px;
+        margin: auto;
+        margin-bottom: 50px;
+        transition: 1s;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .referance1 ,.referance2{
+        border-radius: 5px;
+        border: 1px solid #A6A165;
+        height: 200px;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: 1s;
+        
+    }
 
 
     #about  , #education , #referance{
